@@ -14,6 +14,7 @@
 		E299BC752C0E2FA800683E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E299BC742C0E2FA800683E49 /* Assets.xcassets */; };
 		E299BC782C0E2FA800683E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299BC762C0E2FA800683E49 /* LaunchScreen.storyboard */; };
 		E299BC852C0E34A800683E49 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299BC842C0E34A800683E49 /* ConfigurationViewController.swift */; };
+		E2A8F5472C0F46E500251720 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8F5462C0F46E500251720 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E299BC772C0E2FA800683E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E299BC792C0E2FA800683E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E299BC842C0E34A800683E49 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		E2A8F5462C0F46E500251720 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E299BC822C0E33B500683E49 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E2A8F5462C0F46E500251720 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				E299BC702C0E2FA600683E49 /* HomeViewController.swift in Sources */,
 				E299BC852C0E34A800683E49 /* ConfigurationViewController.swift in Sources */,
 				E299BC6C2C0E2FA600683E49 /* AppDelegate.swift in Sources */,
+				E2A8F5472C0F46E500251720 /* HomeView.swift in Sources */,
 				E21CB0DD2C0E35E500002899 /* QTTabBarViewController.swift in Sources */,
 				E299BC6E2C0E2FA600683E49 /* SceneDelegate.swift in Sources */,
 			);
