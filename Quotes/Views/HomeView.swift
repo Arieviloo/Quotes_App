@@ -2,7 +2,7 @@ import UIKit
 
 class HomeView: UIView {
 	
-	lazy var actorImage: UIImageView = {
+	lazy var authorImage: UIImageView = {
 		$0.translatesAutoresizingMaskIntoConstraints = false
 		$0.backgroundColor = .systemPink
 		return $0
@@ -16,7 +16,7 @@ class HomeView: UIView {
 		return $0
 	}(UILabel())
 	
-	lazy var actorNameLabel: UILabel = {
+	lazy var authorNameLabel: UILabel = {
 		$0.translatesAutoresizingMaskIntoConstraints = false
 		$0.text = "mano mano"
 		$0.textAlignment = .center
@@ -37,25 +37,25 @@ class HomeView: UIView {
 	}
 	
 	private func configureView() {
-		addSubview(actorImage)
+		addSubview(authorImage)
 		addSubview(quoteLabel)
-		addSubview(actorNameLabel)
+		addSubview(authorNameLabel)
 	}
 	
 	private func configureConstraints() {
 		NSLayoutConstraint.activate([
-			actorImage.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
-			actorImage.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor),
-			actorImage.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor),
-			actorImage.heightAnchor.constraint(equalToConstant: 250),
+			authorImage.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
+			authorImage.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor),
+			authorImage.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor),
+			authorImage.heightAnchor.constraint(equalToConstant: 250),
 			
-			quoteLabel.topAnchor.constraint(equalTo: actorImage.bottomAnchor, constant: 10),
-			quoteLabel.leadingAnchor.constraint(equalTo: actorImage.leadingAnchor, constant: 10),
-			quoteLabel.trailingAnchor.constraint(equalTo: actorImage.trailingAnchor, constant: -10),
+			quoteLabel.topAnchor.constraint(equalTo: authorImage.bottomAnchor, constant: 10),
+			quoteLabel.leadingAnchor.constraint(equalTo: authorImage.leadingAnchor, constant: 10),
+			quoteLabel.trailingAnchor.constraint(equalTo: authorImage.trailingAnchor, constant: -10),
 			
-			actorNameLabel.topAnchor.constraint(equalTo: quoteLabel.bottomAnchor, constant: 10),
-			actorNameLabel.leadingAnchor.constraint(equalTo: quoteLabel.leadingAnchor),
-			actorNameLabel.trailingAnchor.constraint(equalTo: quoteLabel.trailingAnchor)
+			authorNameLabel.topAnchor.constraint(equalTo: quoteLabel.bottomAnchor, constant: 10),
+			authorNameLabel.leadingAnchor.constraint(equalTo: quoteLabel.leadingAnchor),
+			authorNameLabel.trailingAnchor.constraint(equalTo: quoteLabel.trailingAnchor)
 			
 		])
 	}
