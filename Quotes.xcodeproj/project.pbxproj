@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E21CB0DD2C0E35E500002899 /* QTTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CB0DC2C0E35E500002899 /* QTTabBarViewController.swift */; };
+		E24D1C932C10A3ED00716850 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = E24D1C922C10A3ED00716850 /* quotes.json */; };
+		E24D1C952C10A3FB00716850 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D1C942C10A3FB00716850 /* Quote.swift */; };
+		E24D1C972C10A40500716850 /* QuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D1C962C10A40500716850 /* QuoteManager.swift */; };
+		E24D1C992C10A40E00716850 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D1C982C10A40E00716850 /* Configuration.swift */; };
 		E299BC6C2C0E2FA600683E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299BC6B2C0E2FA600683E49 /* AppDelegate.swift */; };
 		E299BC6E2C0E2FA600683E49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299BC6D2C0E2FA600683E49 /* SceneDelegate.swift */; };
 		E299BC702C0E2FA600683E49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299BC6F2C0E2FA600683E49 /* HomeViewController.swift */; };
@@ -20,6 +24,10 @@
 
 /* Begin PBXFileReference section */
 		E21CB0DC2C0E35E500002899 /* QTTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTTabBarViewController.swift; sourceTree = "<group>"; };
+		E24D1C922C10A3ED00716850 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		E24D1C942C10A3FB00716850 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		E24D1C962C10A40500716850 /* QuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
+		E24D1C982C10A40E00716850 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		E299BC682C0E2FA600683E49 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299BC6B2C0E2FA600683E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E299BC6D2C0E2FA600683E49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E24D1C912C10A3D100716850 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E24D1C922C10A3ED00716850 /* quotes.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		E299BC5F2C0E2FA600683E49 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +100,10 @@
 		E299BC802C0E339000683E49 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E24D1C912C10A3D100716850 /* Files */,
+				E24D1C942C10A3FB00716850 /* Quote.swift */,
+				E24D1C962C10A40500716850 /* QuoteManager.swift */,
+				E24D1C982C10A40E00716850 /* Configuration.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +196,7 @@
 			files = (
 				E299BC782C0E2FA800683E49 /* LaunchScreen.storyboard in Resources */,
 				E299BC752C0E2FA800683E49 /* Assets.xcassets in Resources */,
+				E24D1C932C10A3ED00716850 /* quotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,8 +209,11 @@
 			files = (
 				E299BC702C0E2FA600683E49 /* HomeViewController.swift in Sources */,
 				E2A8F5492C0F7B7800251720 /* ConfigurationView.swift in Sources */,
+				E24D1C972C10A40500716850 /* QuoteManager.swift in Sources */,
 				E299BC852C0E34A800683E49 /* ConfigurationViewController.swift in Sources */,
 				E299BC6C2C0E2FA600683E49 /* AppDelegate.swift in Sources */,
+				E24D1C952C10A3FB00716850 /* Quote.swift in Sources */,
+				E24D1C992C10A40E00716850 /* Configuration.swift in Sources */,
 				E2A8F5472C0F46E500251720 /* HomeView.swift in Sources */,
 				E21CB0DD2C0E35E500002899 /* QTTabBarViewController.swift in Sources */,
 				E299BC6E2C0E2FA600683E49 /* SceneDelegate.swift in Sources */,

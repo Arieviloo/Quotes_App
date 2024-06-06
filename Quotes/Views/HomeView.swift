@@ -10,7 +10,6 @@ class HomeView: UIView {
 	
 	lazy var quoteLabel: UILabel = {
 		$0.translatesAutoresizingMaskIntoConstraints = false
-		$0.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper mi vel turpis dictum, a maximus risus efficitur. Nunc vitae dignissim purus. Cras imperdiet nunc nec pulvinar ultrices. Nam quis risus enim. Duis pretium dolor nec dolor gravida convallis ac sit amet magna."
 		$0.textAlignment = .center
 		$0.numberOfLines = 0
 		return $0
